@@ -1,5 +1,5 @@
-Git is a distributed version control system.git
-Git is free software.hdjah
+Git::::::w is a distributed version control system.git
+5ggGit is free software.hdjah
 git 常用命令
 git add 添加到暂存区
 git commit -m "说明1"提交暂存区到分支
