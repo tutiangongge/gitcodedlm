@@ -26,3 +26,11 @@ git reset HEAD filename
 删除
 git checkout  用版本库里的版本替换工作区的版本
 从版本库中删除该文件，那就用命令git rm删掉，并且git commit
+
+git push origin master 上传代码
+git clone https://github.com/tutiangongge/gitskills.git  从指定仓库克隆代码
+
+git remote add origin git@github.com:michaelliao/learngit.git 关联本地仓库与远程仓库
+
+git push -u origin master 加入u关联分支
+
