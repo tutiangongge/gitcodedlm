@@ -1,4 +1,4 @@
-Git::::::w is a distributed version control system.git
+Git is a distributed version control system.git
 5ggGit is free software.hdjah
 git 常用命令
 git add 添加到暂存区
@@ -34,3 +34,13 @@ git remote add origin git@github.com:michaelliao/learngit.git 关联本地仓库
 
 git push -u origin master 加入u关联分支
 
+git remote -v查看远程库信息
+git remote rm origin 删除已有的GitHub远程库：
+
+关联不同的远程仓库
+git remote add github git@github.com:michaelliao/learngit.git
+git remote add gitee git@gitee.com:liaoxuefeng/learngit.git
+
+推送不同的远程仓库
+git push github master
+git push gitee master
