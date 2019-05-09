@@ -44,3 +44,7 @@ git remote add gitee git@gitee.com:liaoxuefeng/learngit.git
 推送不同的远程仓库
 git push github master
 git push gitee master
+
+任意Fork开源仓库；
+自己拥有Fork后的仓库的读写权限；
+可以推送pull request给官方仓库来贡献代码。
