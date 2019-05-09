@@ -27,6 +27,8 @@ git reset HEAD filename
 git checkout  用版本库里的版本替换工作区的版本
 从版本库中删除该文件，那就用命令git rm删掉，并且git commit
 
+
+git pull origin master // 把本地仓库的变化连接到远程仓库主分支
 git push origin master 上传代码
 git clone https://github.com/tutiangongge/gitskills.git  从指定仓库克隆代码
 
@@ -56,5 +58,13 @@ Git 分支管理
 创建+切换分支：git checkout -b <name>
 合并某分支到当前分支：git merge <name>
 删除分支：git branch -d <name>
+
+忽略特殊文件
+.gitignore文件
+可以直接在线浏览：https://github.com/github/gitignore
+.gitignore也提交到Git，就完成了！当然检验.gitignore的标准是git status命令是不是说working directory clean
+-f强制添加忽略文件到Git
+git check-ignore -v App.clas 检查某一个文件的规则
+
 
 git log --graph命令可以看到分支合并图
