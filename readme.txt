@@ -48,3 +48,11 @@ git push gitee master
 任意Fork开源仓库；
 自己拥有Fork后的仓库的读写权限；
 可以推送pull request给官方仓库来贡献代码。
+
+Git 分支管理
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
